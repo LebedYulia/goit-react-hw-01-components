@@ -41,7 +41,7 @@ ul {
 
 li {
     width: 90px;
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     flex-direction: column;
     border: rgb(223, 224, 226) 1px solid;

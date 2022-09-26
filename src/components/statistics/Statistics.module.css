@@ -1,0 +1,25 @@
+.statistics {
+  max-width: 320px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.stat_list {
+  display: flex;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.percentage {
+  color: white;
+}

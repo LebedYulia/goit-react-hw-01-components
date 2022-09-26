@@ -1,0 +1,17 @@
+.friends_list{
+  margin-top: 90px;  
+}
+
+.friends_item{
+    min-width: 320px;
+    margin: 20px auto;
+    display: flex;
+    background-color: white;
+}
+
+.status {
+    display: block;
+    width: 10px;
+    border-radius: 50%;
+    color: brown;
+}

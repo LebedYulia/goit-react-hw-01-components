@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import {getRandomHexColor} from 'utils/getRandomHexColor'
 import css from './Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
@@ -32,8 +33,3 @@ Statistics.propTypes = {
   ),
 };
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}

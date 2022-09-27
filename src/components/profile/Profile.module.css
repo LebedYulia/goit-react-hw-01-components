@@ -12,8 +12,7 @@
     padding: 20px;
 }
 
-.avatar {
-    display: block;    
+.avatar {        
     max-width: 50%;
     margin: auto;
 }
@@ -33,7 +32,7 @@
     background-color: rgb(245, 245, 245);    
 }
 
-li {
+.item {
     width: 90px;
     padding: 15px 0;
     display: flex;

@@ -1,6 +1,6 @@
 .statistics {
   max-width: 320px;
-  margin: auto;
+  margin: 0 auto 90px;  
   text-align: center;
   background-color: white;
 }
@@ -12,6 +12,14 @@
 
 .stat_list {
   display: flex;
+}
+
+.item {
+    width: 90px;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    border: rgb(223, 224, 226) 1px solid;
 }
 
 .label {
